@@ -1,0 +1,30 @@
+# Ignore virtual environment (if placed here)
+venv/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Django secret/env files
+.env
+.env.*
+
+# Ignore SQLite DB (if you ever used it locally)
+*.sqlite3
+
+# Ignore migrations cache
+*/migrations/__pycache__/
+
+# Ignore logs
+*.log
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Ignore compiled static files (optional)
+staticfiles/
